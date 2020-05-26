@@ -9,7 +9,7 @@ class Position(models.Model):
 
 
 class Student(models.Model):
-    fullname = models.CharField(max_length = 100)
-    roll_no = models.CharField(max_length = 5)
+    full_name = models.CharField(max_length = 100)
+    roll_number = models.CharField(max_length = 5)
     mobile = models.CharField(max_length = 10)
     position = models.ForeignKey(Position, on_delete = models.CASCADE)
