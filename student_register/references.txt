@@ -1,0 +1,2 @@
+bootstrap css and js
+fontawesome cdnjs.com  --> all.min.js 
