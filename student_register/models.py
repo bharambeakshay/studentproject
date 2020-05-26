@@ -4,6 +4,9 @@ from django.db import models
 class Position(models.Model):
     title = models.CharField(max_length = 50)
 
+    def __str__(self):       # this shows position title insted of position id or objects
+        return self.title
+
 
 
 

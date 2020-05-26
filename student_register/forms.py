@@ -14,3 +14,6 @@ class StudentForm(forms.ModelForm):
             'mobile' : 'Mobile', 
             'position': 'Position'
         }
+    def __init__(self,*args,**kwargs): #this block of code gives select in dropdown
+        super(StudentForm,self).__init__(*args,**kwargs)
+        self.fields['position'].empty_label = "Select"
