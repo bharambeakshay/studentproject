@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'student_register',
     #it controls forms using bootstrap etc.
-    'crispy_forms',
+    'crispy_forms', 
+    #mobile
+    'phone_field' #you can use this
 ]
 CRISPY_TEMPLATE_PACK = 'bootstrap'
 
