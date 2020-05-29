@@ -12,23 +12,20 @@
         <div class = "col-md-4">
             {{form.roll_number|as_crispy_field}}
         </div>
-        <div class = "col-md-4">
+        <div class = "col-md-8">
             {{form.position|as_crispy_field}}
         </div>
     </div>
+
     <div class="row">
         <div class="col-md-8">
-             <button type ="submit" class = "btn btn-success btn block-lg"><i class="fas fa-database"></i>Submit</button> 
-
+            <button type="submit" class="btn btn-success btn-block btn-lg"><i class="fas fa-database"></i>
+                Submit</button>
         </div>
-    </div>
-    <div class="row">
         <div class="col-md-4">
-            <a href="{% url 'student_list' %}" class="btn btn-brn secondary btn-block btn-lg" >
-                <i class="fas fa-Stream"></i>Back To List
+            <a href="{% url 'student_list' %}" class="btn btn-secondary btn-block btn-lg">
+                <i class="fas fa-stream"></i> Back to list
             </a>
-          
-
         </div>
     </div>
 
